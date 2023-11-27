@@ -40,7 +40,7 @@ Flask API:
 2. 
 3. Use chrome broswer to access web api. Flask app can be rendered through Selenium Webdriver(chrome driver).
 
-   Note: app will be run on http:/<host>/<port>
+   Note: app will be run on http:/host/port
    
 
 ## Installing
