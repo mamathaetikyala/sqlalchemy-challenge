@@ -16,11 +16,12 @@ sqlalchemy-challenge uses SQL lite database. Seesion queries of sqlalchemy are u
 
 ## About
 
-The purpose of this challenge is query database using sqlalchemy session quries and draw analutical conlusions on precipitation and temperature data of different stations. And also build web app(API) exposure of data in json format using Flask module.
+Data provided consists of SQLlite database file of different stations. database consists of two tables 1. measurement 2. station
 
-Querying using sql queries(sqlalchemy). Draw histogram using pandas and matplotlib.
+The purpose of this challenge is query database using sqlalchemy session queries and draw analutical conlusions on precipitation and temperature data of different stations. Build web app(API) exposure of data in json format using Flask module.
 
-data provided consists of 6 files of different stations. database consists of two tables 1. measurement 2. station
+Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(precipitation) using pandas and matplotlib/pandas.
+
 
 ## Getting Started
 
