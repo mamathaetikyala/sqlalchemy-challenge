@@ -20,7 +20,7 @@ Data provided consists of SQLlite database file of different stations. database 
 
 The purpose of this challenge is query database using sqlalchemy session queries and draw analutical conlusions on precipitation and temperature data of different stations. Build web app(API) exposure of data in json format using Flask module.
 
-Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(precipitation) using pandas and matplotlib/pandas.
+Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(precipitation) using matplotlib/pandas.
 
 
 ## Getting Started
@@ -30,11 +30,11 @@ Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(pr
 
 ## Installing
 
-install python packages: sqlalchemy, numpy, pandas, datetime, flask
+install python packages: sqlalchemy,sqlalchemy-extension-automap,sqlalchemy-orm, numpy, pandas, datetime, flask
 
 ## Usage
 
-Draw analytical answers using SQL queries from database.
+Draw analytical answers using SQL queries from database. Activate a web api using flask for stations, precipitation and temperatures for most active station.
 
 ## Contributing
 
