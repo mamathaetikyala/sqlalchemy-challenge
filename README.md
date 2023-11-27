@@ -1,10 +1,10 @@
 # sqlalchemy-challenge
 
-sqlalchemy-challenge is to a project to analyze data using advanced SQL querying techniques.
+sqlalchemy-challenge is a project to analyze weather data(precipitation and temperature) using advanced SQL querying techniques.
 
 # Project Title 
 
-sqlalchemy-challenge uses database sessions and seesion queries in python using sqlalchemy.
+sqlalchemy-challenge uses SQL lite database. Seesion queries of sqlalchemy are used to fetech data and analyze further. Web App(API) is built using Flask. 
 
 ## Table of Contents
 
@@ -16,35 +16,24 @@ sqlalchemy-challenge uses database sessions and seesion queries in python using 
 
 ## About
 
-The purpose of this challenge is showcase understanding of data base, normalization and table creation in data base.
+The purpose of this challenge is query database using sqlalchemy session quries and draw analutical conlusions on precipitation and temperature data of different stations. And also build web app(API) exposure of data in json format using Flask module.
 
-Querying using sql queries.
+Querying using sql queries(sqlalchemy). Draw histogram using pandas and matplotlib.
 
-data provided consists of 6 files of organization. 1. Employees 2. Departments 3. Managers 4. Employees of each departments 5. Salaries of Employees 6. Titles of Employees
+data provided consists of 6 files of different stations. database consists of two tables 1. measurement 2. station
 
 ## Getting Started
 
-Install any database(code is written for postgreSQL) 
-
-1. Run data engineering file in query tool to create tables and relation in database.
-
-    Tables that will be created are:
-    
-    1. employees 2. titles 3. departments 4. department_managers 5. department_employees 6. employee_salaries
-
-
-2. Run data analysis file in query tool to answer questions like number of employees sharing same last name, employees in sales and development departments. Managers of each department etc.
-
-Note: ER diagram helps understand Data Model used as part of the project.
-
+1. Run jupyter notebook file to upload data from database file
+2. Run analysis code blocks to derive conlusions on precipitation and temperature data
 
 ## Installing
 
-postgresSQL preferred installation.
+install python packages: sqlalchemy, numpy, pandas, datetime, flask
 
 ## Usage
 
-Draw analytical answers using SQL queries from employee database.
+Draw analytical answers using SQL queries from database.
 
 ## Contributing
 
