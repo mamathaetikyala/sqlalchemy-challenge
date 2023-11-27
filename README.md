@@ -28,6 +28,12 @@ Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(pr
 1. Run jupyter notebook file to upload data from database file
 2. Run analysis code blocks to derive conlusions on precipitation and temperature data
 
+Flask API:
+1. Run app.py in command line. to make web server up and running
+2. Use chrome broswer to access web api. Flask app can be rendered through Selenium Webdriver(chrome driver).
+   Note: app will be run on http:/<host>/<port>
+   
+
 ## Installing
 
 install python packages: sqlalchemy,sqlalchemy-extension-automap,sqlalchemy-orm, numpy, pandas, datetime, flask
