@@ -1,5 +1,5 @@
-# Flask API for hawaii stations - precipitations and temperatures
-# Import the dependencies.
+# Flask API for hawaii stations - precipitations and temperature
+# Import the dependencies. 
 import numpy as np
 import pandas as pd
 import datetime as dt
