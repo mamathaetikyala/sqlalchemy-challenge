@@ -1,3 +1,4 @@
+# Flask API for hawaii stations - precipitations and temperatures
 # Import the dependencies.
 import numpy as np
 import pandas as pd
@@ -8,7 +9,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify ,request
+from flask import Flask, jsonify
 
 
 #################################################
@@ -72,6 +73,7 @@ def precipitation():
 
     session.close()
     
+    #Build result data for API
     prcp_result = []
     for date, prcp in last_year_prcp:
         prcp_dict = {}
@@ -129,6 +131,7 @@ def tobs():
     
     session.close()
     
+    #Build result data for API
     tobs_result = []
     for date, tobs in most_active_station_tobs:
         tobs_dict = {}
@@ -154,6 +157,7 @@ def tobs_agg_start(start):
     #Close db session
     session.close()
     
+    #Build result data for API
     tobs__agg_result = []
     for TMIN, TMAX, TAVG in aggregated_tobs:
         tobs_agg_dict = {}
@@ -183,6 +187,7 @@ def tobs_agg_start_end(start,end):
     #Close db session
     session.close()
     
+    #Build result data for API
     tobs__agg_result = []
     for TMIN, TMAX, TAVG in aggregated_tobs:
         tobs_agg_dict = {}
