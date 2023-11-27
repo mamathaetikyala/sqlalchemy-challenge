@@ -31,6 +31,7 @@ Querying using sql queries(sqlalchemy). Draw histogram/(temperature)bar chart(pr
 ## Installing
 
 install python packages: sqlalchemy,sqlalchemy-extension-automap,sqlalchemy-orm, numpy, pandas, datetime, flask
+Selenium Webdriver(chrome driver) is needed to render Flask API in chrome broswer.
 
 ## Usage
 
